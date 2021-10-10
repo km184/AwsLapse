@@ -1,0 +1,10 @@
+streamlit
+pandas
+Image
+shap
+pickle-mixin
+joblib
+pycaret
+numpy==1.20
+matplotlib
+xgboost
