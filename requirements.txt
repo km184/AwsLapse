@@ -2,8 +2,8 @@ streamlit
 pandas
 Image
 shap
-pickle-mixin
+pickle
 joblib
 pycaret
-numpy==1.20
+numpy
 matplotlib
