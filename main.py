@@ -301,9 +301,10 @@ if __name__ == '__main__':
                 if st.checkbox('Analyse Predicted data in a new browser'):
                     import dtale as dt
                     dashboard = dt.show(predictions, ignore_duplicate=True)
-                    dashboard.open_browser()
+                    ur=dashboard.main_url()
+                    
                     # st.subheader('Raw data')
-                    # st.write(data)
+                    st.write(ur)
                 if st.checkbox('Compute Pair Plots'):
                     import seaborn as sns
                     st.title("Please wait while we render your visuals")
