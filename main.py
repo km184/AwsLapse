@@ -2,7 +2,7 @@ from pycaret.classification import *
 import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
-import pickle
+import pickle5 as pickle
 import time
 import shap
 from PIL import Image
