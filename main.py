@@ -2,7 +2,6 @@ from pycaret.classification import *
 import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
-import pickle5 as pickle
 import time
 import shap
 from PIL import Image
@@ -254,7 +253,7 @@ if __name__ == '__main__':
                         shap_html = f"<head>{shap.getjs()}</head><body>{plot.html()}</body>"
                         components.html(shap_html, height=height)
 
-                    import pickle
+                    import pickle5 as pickle
                     import matplotlib.pyplot as plt
 
                     with open('score_objects.pkl', 'rb') as handle:
